@@ -1,0 +1,11 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: INFINITO HOLDINGS PVT LTD
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  slogan : "SuperFast!!"
