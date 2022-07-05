@@ -11,6 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  --custom:#004aad;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -7816,6 +7817,10 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
+.bg-custom{
+  background-color:#004aad;
+
+}
 
 .bg-success {
   --bs-bg-opacity: 1;
@@ -11300,6 +11305,7 @@ body {
 
 .page-section {
   padding: 8rem 0;
+ 
 }
 
 .text-white-75 {
@@ -11392,7 +11398,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11418,8 +11424,10 @@ header.masthead h1, header.masthead .h1 {
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
     font-size: 3.5rem;
+
   }
 }
+
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
